@@ -4,15 +4,15 @@ import pandas as pd
 import streamlit as st
 
 # Set a simple password
-PASSWORD = os.environ["APP_PASSWORD"]
+#PASSWORD = os.environ["APP_PASSWORD"]
 
 # Password input for access
-password = st.text_input("Enter Password", type="password")
-if password != PASSWORD:
-    st.warning("Incorrect password")
-    st.stop()
-else:
-    st.success("Access granted!")
+#password = st.text_input("Enter Password", type="password")
+#if password != PASSWORD:
+    #st.warning("Incorrect password")
+    #st.stop()
+#else:
+    #st.success("Access granted!")
 
 # Function to establish a database connection
 def get_database_connection():
