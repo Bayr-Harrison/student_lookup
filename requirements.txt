@@ -1,4 +1,6 @@
 streamlit
 pandas
-pg8000
-openpyxl
+pymupdf
+requests
+postgrest
+httpx
