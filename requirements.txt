@@ -4,3 +4,4 @@ pymupdf
 requests
 postgrest
 httpx
+pg8000
